@@ -1,9 +1,10 @@
 import jax.numpy as np
 import jax.random as random
 from jax import grad, jit, vmap
-from activations import *
+from ..activations import *
 
-class DenseLayer:
+
+class Dense:
     """
     Description: 
         A object that represents a dense layer.
